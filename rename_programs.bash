@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-IFS=$'\n' list=($(ls *.py))
+IFS=$'\n' list=($(ls programs/*.py))
 i=0
 
 for file in ${list[@]}; do

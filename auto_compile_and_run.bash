@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-IFS=$'\n' list=($(ls *.c))
+IFS=$'\n' list=($(ls programs/*.c))
 i=0
 
 echo "Programs: "
